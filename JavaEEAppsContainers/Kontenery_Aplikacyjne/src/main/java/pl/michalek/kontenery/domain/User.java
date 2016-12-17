@@ -1,16 +1,23 @@
 package pl.michalek.kontenery.domain;
 
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Lob;
 import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 @Table(name="user")
@@ -30,13 +37,25 @@ public class User {
 	private String password;
 	private boolean enabled;
 	
-	@ManyToMany(fetch = FetchType.LAZY)
+	@Temporal(TemporalType.DATE)
+	private Date dataUrodzenia;
+	
+	@ManyToMany(fetch = FetchType.EAGER)
 	private Set<UserRole> userRole = new HashSet<UserRole>(0);
+	
+	@OneToOne(cascade = CascadeType.ALL)
+	private Pesel pesel;
+	
+	@ManyToOne
+	private Address address;
+	
+	@Lob
+	private byte[] picture;
 	
 	public int getId() {
 		return id;
 	}
-	public void setId() {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getFirstname() {
@@ -86,5 +105,29 @@ public class User {
 	}
 	public void setUserRole(Set<UserRole> userRole) {
 		this.userRole = userRole;
+	}
+	public Pesel getPesel() {
+		return pesel;
+	}
+	public void setPesel(Pesel pesel) {
+		this.pesel = pesel;
+	}
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	public Date getDataUrodzenia() {
+		return dataUrodzenia;
+	}
+	public void setDataUrodzenia(Date dataUrodzenia) {
+		this.dataUrodzenia = dataUrodzenia;
+	}
+	public byte[] getPicture() {
+		return picture;
+	}
+	public void setPicture(byte[] picture) {
+		this.picture = picture;
 	}
 }
