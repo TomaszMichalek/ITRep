@@ -25,4 +25,8 @@ public class Point {
 		setX(x);
 		setY(y);
 	}
+	
+	public void changeObject(Point p) {
+        p = new Point(-100, -100);
+    }
 }
