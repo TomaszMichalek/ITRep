@@ -1,5 +1,10 @@
 package pl.javastart.sequentional_programming.input_output;
 
+/*
+Utwórz dwie zmienne typu double. Nastêpnie przy u¿yciu klasy Scanner pobierz od u¿ytkownika dwie liczby i wykonaj na nich dodawanie, 
+odejmowanie, mno¿enie i dzielenie, wyœwietlaj¹c wyniki w kolejnych liniach na konsoli.
+*/
+
 import java.util.Scanner;
 
 public class Zad1 {

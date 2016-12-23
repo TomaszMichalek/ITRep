@@ -1,5 +1,15 @@
 package pl.javastart.sequentional_programming.operators;
 
+/*
+Napisz prosty kalkulator, w którym bêdziesz przechowywa³ 3 zmienne typu double o nazwach a,b,c. Wypróbuj wszystkie operatory matematyczne:
+- (a+b)*c
+- a-b/c
+U¿yj operatorów inkrementacji i zwiêksz wszystkie zmienne o 1. Teraz porównaj ze sob¹, czy:
+- (a+b)>c
+- czy a=b?
+Przedstaw wyniki w konsoli.
+*/
+
 public class Zad1 {
 
 	public static void main(String[] args) {

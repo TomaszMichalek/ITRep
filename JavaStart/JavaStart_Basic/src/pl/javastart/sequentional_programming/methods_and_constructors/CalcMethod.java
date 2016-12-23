@@ -2,12 +2,13 @@ package pl.javastart.sequentional_programming.methods_and_constructors;
 
 public class CalcMethod {
 
-	public static void main(String[] args) {
-		
-		Calc calc = new Calc();
-        double addResult = calc.add(2.5, 7.5);
-        System.out.println(addResult);
-         
-        calc.addAndPrint(6, 8);
-	}
+	double add(double a, double b) {
+        double result = a + b;
+        return result;
+    }
+     
+    void addAndPrint(int a, int b) {
+        int result = a + b;
+        System.out.println(result);
+    }
 }

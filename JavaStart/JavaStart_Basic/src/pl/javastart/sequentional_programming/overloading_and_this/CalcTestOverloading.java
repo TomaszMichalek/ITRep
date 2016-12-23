@@ -1,5 +1,12 @@
 package pl.javastart.sequentional_programming.overloading_and_this;
 
+/*
+Napisz program-kalkulator, który bêdzie sk³ada³ siê z dwóch klas: Calculator i CalcTest.
+W klasie Calculator zdefiniuj metody add i subtract w kilku przeci¹¿onych wersjach, aby mog³y dodawaæ 
+lub odejmowaæ 2 lub 3 liczby (a+b+c lub a-b-c) wybranego przez Ciebie typu liczbowego.
+W klasie CalcTest przetestuj dzia³anie klasy Calculator.
+*/
+
 public class CalcTestOverloading {
 
 	public static void main(String[] args) {

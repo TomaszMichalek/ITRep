@@ -1,5 +1,7 @@
 package pl.javastart.sequentional_programming.control_flow;
 
+// Pobierz w konsoli dwie liczby ca³kowite, nastêpnie porównaj je i wyœwietl stosowny komunikat z wynikiem.
+
 import java.util.Scanner;
 
 public class Zad1 {

@@ -1,5 +1,10 @@
 package pl.javastart.sequentional_programming.arrays;
 
+/*
+Utwórz tablicê typu int przechowuj¹c¹ n elementów - gdzie n jest parametrem pobieranym od u¿ytkownika. Nastêpnie wype³nij 
+j¹ liczbami od 1 do n i wyœwietl zawartoœæ na ekranie przy pomocy pêtli while.
+*/
+
 import java.util.Scanner;
 
 public class Zad2 {

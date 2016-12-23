@@ -1,5 +1,10 @@
 package pl.javastart.sequentional_programming.dealing_with_text_files;
 
+/*
+Napisz program, w którym wprowadzisz w konsoli swoje imiê, nastêpnie zapiszesz je do pliku. 
+Odczytaj je z powrotem z pliku i bez u¿ycia dodatkowej zmiennej wyœwietl na ekranie.
+*/
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;

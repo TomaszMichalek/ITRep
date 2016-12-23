@@ -1,5 +1,10 @@
 package pl.javastart.sequentional_programming.control_flow;
 
+/*
+Utwórz klasê User, która przechowuje tylko podstawowe informacje o osobie - imiê i nazwisko. Do tego stwórz drug¹ klasê UserManager, 
+która pozwala na realizacjê 3 czynnoœci wymienionych w poprzednim akapicie.
+*/
+
 public class UserManagerIF {
 
 	public static void main(String[] args) {
@@ -20,7 +25,7 @@ public class UserManagerIF {
         } else if(option == 2) {
             user.setFirstName("Marian");
             user.setLastName("Powolny");
-            System.out.println("Zmieniono dane u¿ytkownika na: "+user.getFirstName()+" "+user.getLastName());
+            System.out.println("Zmieniono dane u¿ytkownika na: " + user.getFirstName() + " " + user.getLastName());
         }
 	}
 }

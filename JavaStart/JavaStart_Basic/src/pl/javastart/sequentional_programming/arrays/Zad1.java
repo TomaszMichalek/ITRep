@@ -1,5 +1,10 @@
 package pl.javastart.sequentional_programming.arrays;
 
+/*
+Napisz program, w którym zadeklarujesz i utworzysz piêcioelementow¹ tablicê odpowiedniego typu. W pêtli pobierzesz od u¿ytkownika 
+5 imion i je w niej zapiszesz. Nastêpnie wyœwietl na ekranie powiadomienia "Witaj imie_z_tablicy" dla ka¿dego z podanych parametrów.
+*/
+
 import java.util.Scanner;
 
 public class Zad1 {

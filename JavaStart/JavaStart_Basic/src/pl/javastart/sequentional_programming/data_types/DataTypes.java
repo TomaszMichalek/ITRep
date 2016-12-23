@@ -1,5 +1,7 @@
 package pl.javastart.sequentional_programming.data_types;
 
+// Przyk³adowe wyœwietlanie ró¿nych typów danych na ekranie.
+
 public class DataTypes {
 
 	public static void main(String[] args) {

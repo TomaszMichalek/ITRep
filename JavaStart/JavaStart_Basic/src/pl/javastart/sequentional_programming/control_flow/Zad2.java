@@ -1,5 +1,10 @@
 package pl.javastart.sequentional_programming.control_flow;
 
+/*
+Napisz program, który pobierze od u¿ytkownika imiê i przechowa je w zmiennej. Nastêpnie stwórz kilka warunków z ró¿nymi imionami. 
+Jeœli któreœ z imion bêdzie pasowa³o wyœwietl "Czeœæ jakieœ_imiê", gdy program nie znajdzie imienia wyœwietl "Przykro mi, ale Ciê nie znam".
+*/
+
 import java.util.Scanner;
 
 public class Zad2 {

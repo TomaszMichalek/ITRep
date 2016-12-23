@@ -1,5 +1,14 @@
 package pl.javastart.sequentional_programming.variables;
 
+/*
+Napisz program, w którym zadeklarujesz zmienne, które bêd¹ reprezentowaæ samochód w salonie samochodowym poprzez:
+- markê
+- model
+- rocznik
+- cenê
+Na koñcu wyœwietl informacje o samochodzie, który powsta³ po zainicjowaniu przez Ciebie zmiennych.
+*/
+
 public class Zad2 {
 
 	public static void main(String[] args) {
