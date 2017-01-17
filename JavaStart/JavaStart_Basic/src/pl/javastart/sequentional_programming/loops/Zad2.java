@@ -26,5 +26,7 @@ public class Zad2 {
 		while(zegar>0);
 		
 		System.out.println("BUM!!!!!!!!");
+		
+		input.close();
 	}
 }

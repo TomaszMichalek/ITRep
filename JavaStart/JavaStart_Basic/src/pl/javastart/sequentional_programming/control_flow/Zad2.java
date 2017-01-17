@@ -29,5 +29,7 @@ public class Zad2 {
 		default:
 			System.out.println("Przykro mi, ale nie znam Ciê. :(");
 		}
+		
+		odczyt.close();
 	}
 }

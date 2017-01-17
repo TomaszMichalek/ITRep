@@ -26,5 +26,7 @@ public class Zad2 {
 			System.out.print(tab[licznik] + " ");
 			licznik++;
 		}
+		
+		input.close();
 	}
 }

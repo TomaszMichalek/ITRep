@@ -8,7 +8,6 @@ public class Zad1 {
 
 	public static void main(String[] args) {
 
-		int zmienna;
 		Scanner odczyt = new Scanner(System.in);
 		
 		System.out.println("Podaj liczbê a");
@@ -25,5 +24,7 @@ public class Zad1 {
 		else {
 			System.out.println("Liczba " + a + " jest równa liczbie " + b);
 		}
+		
+		odczyt.close();
 	}
 }

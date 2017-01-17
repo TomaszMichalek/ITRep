@@ -24,5 +24,7 @@ public class Zad1 {
 			zegar--;
 		}
 		System.out.printf("%20s","BUM!!!!!!!!!");
+		
+		input.close();
 	}
 }

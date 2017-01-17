@@ -24,5 +24,7 @@ public class Zad3 {
 		}
 		
 		System.out.println("BUM!!!!!!!!!!!");
+		
+		input.close();
 	}
 }

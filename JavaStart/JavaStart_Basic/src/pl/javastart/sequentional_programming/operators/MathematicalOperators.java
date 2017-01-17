@@ -48,7 +48,7 @@ public class MathematicalOperators {
 // *****OPERATORY INKREMENTACJI I DEKREMENTACJI*****
 		
 		int a4 = 5;
-		int b4 = 3;
+		// int b4 = 3;
 		// int f = a4+b4++; //f=a4+b4, a dopiero póŸniej b4 = b4 + 1;
 		// int f = (a4++)+b4; //f=a4+b4, a nastêpnie a4 = a4 + 1
 		int f = a4++;

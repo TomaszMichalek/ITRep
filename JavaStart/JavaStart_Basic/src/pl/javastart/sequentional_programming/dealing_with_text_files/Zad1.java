@@ -28,5 +28,8 @@ public class Zad1 {
 		
 		imie = in.nextLine();
 		System.out.println("Witaj " + imie + "!");	
+		
+		input.close();
+		in.close();
 	}
 }

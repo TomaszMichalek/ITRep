@@ -14,5 +14,7 @@ public class DataCharging {
 		imie = odczyt.nextLine();
 		
 		System.out.println("Witaj " + imie);
+		
+		odczyt.close();
 	}
 }

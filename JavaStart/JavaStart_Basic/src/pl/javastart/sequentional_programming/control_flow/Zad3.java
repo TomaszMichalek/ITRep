@@ -22,5 +22,7 @@ public class Zad3 {
 	        System.out.println("Czeœæ " + imie);
 	    else
 	        System.out.println("Przykro mi, ale Ciê nie znam.");
+	    
+	    odczyt.close();
 	}
 }

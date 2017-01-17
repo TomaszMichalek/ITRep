@@ -16,7 +16,7 @@ public class UserManagerIF {
 		System.out.println("1 - wyœwietl informacje o u¿ytkowniku");
 		System.out.println("2 - modyfikuj dane u¿ytkownika");
 
-		int option = 0;
+		int option = 4;
 		
 		if(option == 0) {
             System.out.println("Bye bye!");
@@ -26,6 +26,9 @@ public class UserManagerIF {
             user.setFirstName("Marian");
             user.setLastName("Powolny");
             System.out.println("Zmieniono dane u¿ytkownika na: " + user.getFirstName() + " " + user.getLastName());
+        }
+        else {
+        	System.out.println("Podano niepoprawn¹ opcjê.");
         }
 	}
 }

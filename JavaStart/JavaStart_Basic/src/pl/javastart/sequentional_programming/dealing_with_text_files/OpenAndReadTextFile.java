@@ -13,5 +13,7 @@ public class OpenAndReadTextFile {
 		
 		String zdanie = in.nextLine();
 		System.out.println(zdanie);	
+		
+		in.close();
 	}
 }
